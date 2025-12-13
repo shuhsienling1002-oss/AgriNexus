@@ -165,7 +165,7 @@ def calculate_mix(water_amount, stage, program_name):
 st.set_page_config(page_title="AgriNexus: Smart Spray", page_icon="🚜", layout="wide")
 
 with st.sidebar:
-    st.title("🚜 AgriNexus Pro")
+    st.title("🚜梨山種水果")
     st.caption("v7.2 (UI Enhanced)")
     st.divider()
     
@@ -179,7 +179,7 @@ with st.sidebar:
 
 # --- 頁面 1: 看板 ---
 if page == "📋 今日戰術看板":
-    st.title("📋 梨山種水果戰術看板")
+    st.title("📋 今日戰術看板")
     st.markdown("---")
     
     if "雨" in weather:
@@ -268,4 +268,5 @@ elif page == "📖 規格查詢":
     
     st.success(f"**✂️ 疏果口訣：** {spec['spacing_rule']}")
     st.info(f"**📝 栽培備註：** {spec['note']}")
+
 
